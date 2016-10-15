@@ -16,7 +16,7 @@ h1 {
 header {
   background-color: #ffe500;
   text-align: center;
-  padding-bottom: 1.25em;
+  padding-bottom: 0.25em;
 }
 
 nav a {
@@ -36,6 +36,7 @@ nav a:hover {
 nav li {
   list-style-type: none;
   display: inline-block;
+  margin: 0 0 0.9em;
 }
 
 body {
@@ -73,4 +74,18 @@ footer {
   font-family: Georgia, serif;
   padding: 10px;
   text-align: center;
+}
+
+nav .current {
+  background-color: #cc1465;
+}
+
+main img {
+  width: 100%;
+  display: block;
+  max-width: 25em;
+}
+
+main div {
+  padding: 0 0.6em;
 }
