@@ -8,7 +8,7 @@ html {
 
 h1 {
   font-family: "Sigmar One", sans-serif;
-  color: #cc1465;
+  color: #b20953;
   font-size: 3rem;
   margin: 0;
 }
@@ -52,7 +52,7 @@ ul {
 h2 {
   font-size: 1.875rem;
   font-family: "Sigmar One", sans-serif;
-  color: #cc1465;
+  color: #b20953;
   margin-left: 0.3em;
 }
 
@@ -60,10 +60,9 @@ main p {
   font-family: Georgia, serif;
   font-size: 1rem;
   margin: 0;
-  padding-left: 0.6em;
-  padding-bottom: 1em;
-  padding-top: 1em;
   max-width: 25em;
+  padding: 1em 0.6em;
+  color: #2f2d13;
 }
 
 p b {
@@ -72,17 +71,17 @@ p b {
 
 footer {
   background-color: #ffe500;
-  font-size: 0.75rem;
   font-family: Georgia, serif;
   padding: 13px;
   text-align: center;
+  font-size: 0.75rem;
 }
 
 nav .current {
   background-color: #cc1465;
 }
 
-main img {
+img {
   width: 100%;
   display: block;
   max-width: 25em;
@@ -90,4 +89,8 @@ main img {
 
 main div {
   padding: 0 0.6em;
+}
+
+main .home-p {
+  padding-top: 0;
 }
